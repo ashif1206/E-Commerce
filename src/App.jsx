@@ -17,9 +17,7 @@ function App() {
     <Route path='/' element={ <LandingPage/>} />
     <Route path='/carditem' element={ <CardItems/>} />
     <Route path='/search' element={ <SearchProducts/>} />
-
-    </Routes>
-
+  </Routes>
     <Footer/>
     </BrowserRouter>
    
